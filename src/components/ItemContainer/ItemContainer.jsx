@@ -2,7 +2,7 @@
 
 import PropTypes from 'prop-types';
 
-const ItemContainer = ({title,img,plataform,logo})=>{
+const ItemContainer = ({title,img,plataform})=>{
 
     return <>
 
@@ -11,7 +11,6 @@ const ItemContainer = ({title,img,plataform,logo})=>{
             <h3 className="my-1">{title}</h3>
             <div className="my-1">
                 <p>{plataform}</p>
-                <img src={logo} alt={logo} />
                 </div>
         </div>
 
@@ -21,7 +20,6 @@ ItemContainer.propTypes = {
     title: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
     plataform: PropTypes.string.isRequired,
-    logo: PropTypes.string.isRequired,
 };
 
 export default ItemContainer;
