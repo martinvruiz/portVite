@@ -7,8 +7,8 @@ return (
     <nav className="w-full sticky top-0 bg-black text-white p-3">
         <ul className="flex justify-center items-center space-x-4 text-xl">
             <Link to="./">Home</Link>
-            <li>Projects</li>
-            <li>Contact</li>
+            <Link>Projects</Link>
+            <Link>Contact</Link>
         </ul>
     </nav>
 )
