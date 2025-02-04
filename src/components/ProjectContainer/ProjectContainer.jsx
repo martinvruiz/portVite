@@ -38,7 +38,7 @@ const ProjectContainer = () => {
             <img src={project.image} alt={project.title} className="rounded-lg mb-4" />
             <h3 className="text-xl text-black font-semibold">{project.title}</h3>
             <p className="text-gray-600">{project.description}</p>
-            <a href={project.link} className="mt-4 inline-block bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-indigo-600 transition">Ver más</a>
+            <a target="_blank" href={project.link} className="mt-4 inline-block bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-indigo-600 transition">Ver más</a>
           </div>
         ))}
       </div>
