@@ -19,6 +19,13 @@ const ProjectContainer = () => {
             description: "Registra tus notas y proximos eventos.",
             image: "/images/projects/Notebook.png",
             link: "https://notebookmvr.vercel.app/"
+          },
+          {
+            id: 3,
+            title: "GymNotes",
+            description: "Anota tu progreso en el gym, de forma sencilla.",
+            image: "/images/projects/gymnotes.png",
+            link: "https://gymnotesmvr.vercel.app/"
           }
     ]
 
