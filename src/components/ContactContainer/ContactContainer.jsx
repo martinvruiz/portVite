@@ -13,7 +13,7 @@ const ContactContainer = ({logo,text,link, showLink= true, mail, showMail= false
             <h3 className="lg:text-xl">{text}</h3>
 
             {showLink &&
-                <a href={link} target="_blank" rel="noreferrer" className="transform transition-transform duration-200 hover:scale-110 border-b border-white">Contactarme</a>
+                <a href={link} target="_blank" rel="noreferrer" className="transform transition-transform duration-200 hover:scale-110 border-b border-white">Contact me</a>
                 }
             {showMail &&
                 <p className="transform transition-transform duration-200 hover:scale-105 text-xs lg:text-base p-1 border-white border-b">{mail}</p>
