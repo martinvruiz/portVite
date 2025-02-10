@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar/Navbar"
 function App() {
 
   return (
-    <div className="bg-black min-h-full text-white">
+    <div className="bg-black min-h-full text-white font-oswald">
       <BrowserRouter>
         <Navbar/>
         <Routes>
