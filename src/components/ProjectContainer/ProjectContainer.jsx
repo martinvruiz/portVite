@@ -9,22 +9,29 @@ const ProjectContainer = () => {
         {
             id: 1,
             title: "Financer",
-            description: "App para gestionar ingresos y gastos.",
+            description: "App para gestionar ingresos y gastos. Hecho con React.js, TailwindCSS y guardado en LocalStorage.",
             image: "/images/projects/Financer.png",
             link: "https://financermvr.vercel.app/"
           },
           {
             id: 2,
             title: "Notebook",
-            description: "Registra tus notas y proximos eventos.",
+            description: "Registra tus notas y proximos eventos. Hecho con React.js, TailwindCSS y guardado en LocalStorage.",
             image: "/images/projects/Notebook.png",
             link: "https://notebookmvr.vercel.app/"
           },
           {
             id: 3,
             title: "GymNotes",
-            description: "Anota tu progreso en el gym, de forma sencilla.",
+            description: "Anota tu progreso en el gym, de forma sencilla. Hecho con React.js, TailwindCSS y guardado en LocalStorage.",
             image: "/images/projects/gymnotes.png",
+            link: "https://gymnotesmvr.vercel.app/"
+          },
+          {
+            id: 4,
+            title: "Dragon ball API",
+            description: "Explora el universo creado por Akira Toriyama. Hecho con React.js, Vite, TailwindCSS y DragonBallApi.",
+            image: "/images/projects/dragonball.jfif",
             link: "https://gymnotesmvr.vercel.app/"
           }
     ]
