@@ -32,7 +32,7 @@ const ProjectContainer = () => {
             title: "Dragon ball API",
             description: "Explora el universo creado por Akira Toriyama. Hecho con React.js, Vite, TailwindCSS y DragonBallApi.",
             image: "/images/projects/dragonball.jfif",
-            link: "https://gymnotesmvr.vercel.app/"
+            link: "https://dragonballmvr.vercel.app/"
           }
     ]
 
